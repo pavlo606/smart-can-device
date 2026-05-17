@@ -2,6 +2,8 @@
 #include <stdint.h>
 #include "services/gps/GpsService.hpp"
 #include "Sim7000Responses.hpp"
+#include "usart.h"
+
 
 enum class SimState
 {
@@ -84,6 +86,9 @@ public:
     static constexpr uint16_t RX_BUFFER_SIZE = 4096;
     static constexpr uint16_t TX_PAYLOAD_SIZE = 512;
     
+    static void onDataReceived(UART_HandleTypeDef* huart, uint16_t len, Sim7000* inst);
+    static void onErrorOccured(UART_HandleTypeDef* huart, Sim7000* inst);
+
     void init();
     void process();
     void stateProcess();
@@ -105,7 +110,10 @@ private:
     SimState state = SimState::Idle;
     uint32_t stateTimestamp = 0;
     uint8_t rxBuffer[RX_BUFFER_SIZE];
+    uint8_t rxBuffer2[2048];
+    uint16_t rxLength2 = 0;
     bool responseReceived = false;
+    bool isUart2ResponseReceived = false;
     
     volatile bool packetReady = false;
     volatile uint16_t rxLength = 0;

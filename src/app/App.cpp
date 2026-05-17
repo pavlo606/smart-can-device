@@ -6,37 +6,57 @@
 
 #define PERIOD 5000
 
-uint8_t uart1_rx;
-uint8_t uart2_rx;
+// Sim7000 App::sim7000{};
 
 App app;
+
+extern "C" {
+void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef* huart, uint16_t Size)
+{
+    Sim7000::onDataReceived(huart, Size, &app.sim7000);
+    // if (huart == &huart2) {
+    //     app.sim7000.onRxUart2(Size, &app.sim7000);
+    // }
+}
+
+void HAL_UART_ErrorCallback(UART_HandleTypeDef* huart)
+{
+    Sim7000::onErrorOccured(huart, &app.sim7000);
+}
+
+}
+
+uint8_t uart1_rx;
+uint8_t uart2_rx;
 
 uint32_t lastGpsRequest;
 uint8_t n = 0;
 
-void App::init()
-{
-    sim7000.init();
-    // obd2.init();
-    led.init(GPIOC, GPIO_PIN_13);
-    lastSend = 0;
-    
-    HAL_UART_Transmit(&huart2, (uint8_t*)"Fucking starting\n", 17, 100);
-    HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);
 
-    // sim7000.sendCommand("AT+CFUN=1,1\r\n", CommandType::None);
-    // sim7000.sendAT("AT\r\n");
+void App::init() {
+  sim7000.init();
+  // obd2.init();
+  led.init(GPIOC, GPIO_PIN_13);
+  lastSend = 0;
 
-    lastGpsRequest = HAL_GetTick();
+  HAL_UART_Transmit(&huart2, (uint8_t *)"Fucking starting\r\n", 17, 100);
+  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);
 
-    // HAL_UART_Receive_IT(&huart1, &uart1_rx, 1);
-    // HAL_UART_Receive_IT(&huart2, &uart2_rx, 1);
+  // sim7000.sendCommand("AT+CFUN=1,1\r\n", CommandType::None);
+  // sim7000.sendAT("AT\r\n");
+
+  lastGpsRequest = HAL_GetTick();
+
+
+
+  // HAL_UART_Receive_IT(&huart1, &uart1_rx, 1);
+  // HAL_UART_Receive_IT(&huart2, &uart2_rx, 1);
 }
 
 void App::loop()
 {
     sim7000.process();
-    sim7000.stateProcess();
+    //sim7000.stateProcess();
 
     uint32_t now = HAL_GetTick();
 
@@ -46,7 +66,7 @@ void App::loop()
     {
         // sim7000.sendCommand("AT+CGMR\r\n", CommandType::None);
         // sim7000.requestGNSS();
-        sim7000.requestSendTelemetry("");
+        //sim7000.requestSendTelemetry("");
         // if (n == 0) {
         //     sim7000.sendAT("AT+CGDCONT=1,\"IP\",\"internet\"\r\n");
         // } else if (n == 1) {

@@ -56,6 +56,7 @@
 
 /* External variables --------------------------------------------------------*/
 extern DMA_HandleTypeDef hdma_usart1_rx;
+extern DMA_HandleTypeDef hdma_usart2_rx;
 extern UART_HandleTypeDef huart1;
 extern UART_HandleTypeDef huart2;
 /* USER CODE BEGIN EV */
@@ -214,37 +215,48 @@ void DMA1_Channel5_IRQHandler(void)
   /* USER CODE END DMA1_Channel5_IRQn 1 */
 }
 
+void DMA1_Channel6_IRQHandler(void)
+{
+  /* USER CODE BEGIN DMA1_Channel5_IRQn 0 */
+
+  /* USER CODE END DMA1_Channel5_IRQn 0 */
+  HAL_DMA_IRQHandler(&hdma_usart2_rx);
+  /* USER CODE BEGIN DMA1_Channel5_IRQn 1 */
+
+  /* USER CODE END DMA1_Channel5_IRQn 1 */
+}
+
 /**
   * @brief This function handles USART1 global interrupt.
   */
 void USART1_IRQHandler(void)
 {
   /* USER CODE BEGIN USART1_IRQn 0 */
-  if (__HAL_UART_GET_FLAG(&huart1, UART_FLAG_IDLE))
-  {
-      volatile uint32_t tmp;
+  // if (__HAL_UART_GET_FLAG(&huart1, UART_FLAG_IDLE))
+  // {
+  //     volatile uint32_t tmp;
 
-      tmp = huart1.Instance->SR;
-      tmp = huart1.Instance->DR;
+  //     tmp = huart1.Instance->SR;
+  //     tmp = huart1.Instance->DR;
 
-      (void)tmp;
+  //     (void)tmp;
 
-      uint16_t remaining =
-          __HAL_DMA_GET_COUNTER(huart1.hdmarx);
+  //     uint16_t remaining =
+  //         __HAL_DMA_GET_COUNTER(huart1.hdmarx);
 
-      uint16_t len =
-          sim7000_get_rx_buffer_size() - remaining;
+  //     uint16_t len =
+  //         sim7000_get_rx_buffer_size() - remaining;
 
-      HAL_UART_DMAStop(&huart1);
+  //     HAL_UART_DMAStop(&huart1);
 
-      sim7000_uart_rx_event(len);
+  //     sim7000_uart_rx_event(len);
 
-      HAL_UART_Receive_DMA(
-          &huart1,
-          sim7000_get_rx_buffer(),
-          sim7000_get_rx_buffer_size()
-      );
-  }
+  //     HAL_UART_Receive_DMA(
+  //         &huart1,
+  //         sim7000_get_rx_buffer(),
+  //         sim7000_get_rx_buffer_size()
+  //     );
+  // }
   /* USER CODE END USART1_IRQn 0 */
   HAL_UART_IRQHandler(&huart1);
   /* USER CODE BEGIN USART1_IRQn 1 */

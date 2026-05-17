@@ -4,30 +4,108 @@ extern "C" {
 #include "usart.h"
 }
 
+#include <stdio.h>
 #include <cstring>
 
-
-void Sim7000::init()
+void Sim7000::onDataReceived(UART_HandleTypeDef *huart, uint16_t len, Sim7000 *inst) 
 {
-    HAL_UART_Receive_DMA(
-        &huart1,
-        rxBuffer,
-        RX_BUFFER_SIZE
-    );
+    if (huart == &huart1) {
+       inst->onRxEvent(len);
+       //HAL_UARTEx_ReceiveToIdle_DMA(&huart1, inst->rxBuffer, sizeof(inst->rxBuffer));
+    } else if (huart == &huart2) {
+        inst->rxLength2 = len;
+        inst->isUart2ResponseReceived = true;
+        //HAL_UARTEx_ReceiveToIdle_DMA(&huart2, inst->rxBuffer2, sizeof(inst->rxBuffer2));
+    }
+}
 
-    __HAL_UART_ENABLE_IT(&huart1, UART_IT_IDLE);
+void Sim7000::onErrorOccured(UART_HandleTypeDef *huart, Sim7000 *inst)
+{
+    if (huart == &huart1) {
+        HAL_UART_DMAStop(&huart1);
+        HAL_UART_DeInit(&huart1);
+        HAL_UART_Init(&huart1);
+        HAL_UARTEx_ReceiveToIdle_DMA(&huart1, inst->rxBuffer, sizeof(inst->rxBuffer));
+
+        //HAL_UART_Transmit(&huart2, (const uint8_t*)"UART1 ERROR!\r\n", 15, 50);
+    } else if (huart == &huart2) {
+        HAL_UART_DMAStop(&huart2);
+        HAL_UART_DeInit(&huart2);
+        HAL_UART_Init(&huart2);
+        HAL_UARTEx_ReceiveToIdle_DMA(&huart2, inst->rxBuffer2, sizeof(inst->rxBuffer2));
+    }
+}
+
+void Sim7000::init() {
+    // HAL_UART_Receive_DMA(&huart1, rxBuffer, RX_BUFFER_SIZE);
+
+    // __HAL_UART_ENABLE_IT(&huart1, UART_IT_IDLE);
+    
+
+    HAL_UARTEx_ReceiveToIdle_DMA(&huart2, rxBuffer2, sizeof(rxBuffer2));
+
+    HAL_UARTEx_ReceiveToIdle_DMA(&huart1, rxBuffer, sizeof(rxBuffer));
 }
 
 void Sim7000::process()
 {
+    if (isUart2ResponseReceived) {
+        HAL_UART_Transmit(&huart1, rxBuffer2, rxLength2, HAL_MAX_DELAY);
+        rxLength2 = 0;
+        isUart2ResponseReceived = false;
+        HAL_UARTEx_ReceiveToIdle_DMA(&huart2, rxBuffer2, sizeof(rxBuffer2));
+    }
+
     if (!packetReady)
         return;
 
     packetReady = false;
 
-    rxBuffer[rxLength] = '\0';
+    // Full transparent, no filering
+    if (true) {
+        HAL_UART_Transmit(&huart2, rxBuffer, rxLength, HAL_MAX_DELAY);
+        HAL_UARTEx_ReceiveToIdle_DMA(&huart1, rxBuffer, sizeof(rxBuffer));
+        return;
+    }
 
-    parseLines((char*)rxBuffer);
+    uint8_t strBuffer[rxLength];
+    size_t strCount = 0;
+    uint8_t binBuffer[256];
+    size_t binaryCount = 0;
+    for (size_t i = 0; i < rxLength; i++) {
+        if ((rxBuffer[i] == '\r' && i < rxLength - 1 && rxBuffer[i + 1] == '\n') ||
+        (rxBuffer[i] == '\n' && i > 0 && rxBuffer[i - 1] == '\r') || (rxBuffer[i] >= 0x20 && rxBuffer[i] < 0x7F)) {
+            strBuffer[strCount++] = rxBuffer[i];
+            //HAL_UART_Transmit(&huart2, &rxBuffer[i], 1, HAL_MAX_DELAY);
+        } else {
+            binBuffer[binaryCount++] = rxBuffer[i];
+        }
+    }
+
+    if (true) {
+        HAL_UART_Transmit(&huart2, strBuffer, strCount, HAL_MAX_DELAY);
+    } else {
+        HAL_UART_Transmit(&huart2, rxBuffer, rxLength, HAL_MAX_DELAY);
+    }
+
+
+    if (false && binaryCount) {
+        char buff[256];
+        sprintf(buff, "\r\n ============== Received %d bytes BINARY ============\r\n", binaryCount);
+        HAL_UART_Transmit(&huart2, (const uint8_t*)buff, strlen(buff), HAL_MAX_DELAY);
+        for (uint8_t i = 0; i < binaryCount; i++) {
+            sprintf(buff, i < binaryCount - 1 ? "%02X:" : "%02X", binBuffer[i]);
+            HAL_UART_Transmit(&huart2, (const uint8_t*)buff, strlen(buff), HAL_MAX_DELAY);
+        }
+        HAL_UART_Transmit(&huart2, (const uint8_t*)"\r\n", 2, HAL_MAX_DELAY);
+    }
+
+    // HAL_UARTEx_ReceiveToIdle_DMA(&huart1, rxBuffer, sizeof(rxBuffer));
+    //rxBuffer[rxLength] = '\0';
+
+    //parseLines((char*)rxBuffer);
+
+    //HAL_UART_Transmit(&huart2, rxBuffer, rxLength, HAL_MAX_DELAY);
 }
 
 void Sim7000::stateProcess() {
@@ -304,6 +382,8 @@ void Sim7000::stateProcess() {
                 changeState(SimState::Init);
                 HAL_UART_Transmit(&huart2, (uint8_t*)"Error\n", 6, 100);
             }
+            break;
+        default:
             break;
     }
 
