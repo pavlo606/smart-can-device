@@ -25,7 +25,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-//#include "app/App.h"
+#include "printf.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -55,7 +55,7 @@ const osThreadAttr_t canTask_attributes = {
 osThreadId_t lteTaskHandle;
 const osThreadAttr_t lteTask_attributes = {
   .name = "lteTask",
-  .stack_size = 256 * 4,
+  .stack_size = 512 * 4,
   .priority = (osPriority_t) osPriorityNormal,
 };
 
@@ -128,10 +128,12 @@ void MX_FREERTOS_Init(void) {
 void StartDefaultTask(void *argument)
 {
   /* USER CODE BEGIN StartDefaultTask */
+
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1000);
+    printf("-------- TEST --------\r\n");
+    osDelay(5000);
   }
   /* USER CODE END StartDefaultTask */
 }

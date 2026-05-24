@@ -369,7 +369,7 @@ void Sim7000::handleLine(const char* line)
 
     HAL_UART_Transmit(&huart2, (uint8_t*)"\"\n", 2, 100);
 
-    printf("[SIM_7000] <<=== Received data: %s\n", line);
+    printf("[SIM_7000] <<=== Received data: %s\r\n", line);
 
     if (strstr(line, "OK")) {
         responses.lastResponseOk = true;

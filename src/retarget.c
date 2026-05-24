@@ -17,18 +17,12 @@
 //     return len;
 // }
 
-// ---------- Tiny printf ----------
-void _putchar(char character)
-{
-    //SEGGER_RTT_Write(0, &character, 1);
-    _write(0, &character, 1);
-}
-
 //---------- SWO ----------
 int _write(int file, char *ptr, int len) {
     for (int i = 0; i < len; i++) {
         ITM_SendChar((*(ptr + 1)));
     }
+    return len;
 }
 
 
@@ -60,3 +54,9 @@ int _write(int file, char *ptr, int len) {
 //     if (result == USBD_OK) return len;
 //     return -1;
 // }
+
+// ---------- Tiny printf ----------
+void _putchar(char character)
+{
+    ITM_SendChar(character);
+}
