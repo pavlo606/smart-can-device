@@ -1,4 +1,4 @@
-#include "GpsService.hpp"
+#include "GpsService.h"
 
 #include <cstring>
 #include <cstdlib>
