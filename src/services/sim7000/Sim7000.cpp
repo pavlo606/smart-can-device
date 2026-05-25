@@ -8,7 +8,9 @@ extern "C" {
 
 #include <cstring>
 
-#include "printf.h"
+#include <stdio.h>
+
+//#include "printf.h"
 
 void Sim7000::onDataReceived(UART_HandleTypeDef* huart, uint16_t len, Sim7000* inst)
 {
@@ -331,6 +333,9 @@ void Sim7000::stateProcess()
             changeState(SimState::Init);
             HAL_UART_Transmit(&huart2, (uint8_t*)"Error\n", 6, 100);
         }
+        break;
+
+    default:
         break;
     }
 

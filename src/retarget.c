@@ -9,7 +9,8 @@
 // #include "stm32f1xx_it.h"
 //#include "SEGGER_RTT.h"
 #include "stm32f1xx_hal.h"
-#include "printf.h"
+//#include "printf.h"
+#include <stdio.h>
 
 // ---------- RTT ----------
 // int _write(int file, char *ptr, int len) {

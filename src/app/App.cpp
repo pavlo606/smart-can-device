@@ -1,10 +1,11 @@
 #include "App.h"
 #include "main.h"
 #include "usart.h"
-#include <cstring>
-#include <cstdlib>
+// #include <cstring>
+// #include <cstdlib>
 
-#include "printf.h"
+//#include "printf.h"
+#include <stdio.h>
 
 extern "C" {
 void startLteTask(void*)

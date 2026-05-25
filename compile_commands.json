@@ -1,0 +1,272 @@
+[
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\lib722\\tiny_printf\\printf.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps lib\\tiny_printf\\printf.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "lib\\tiny_printf\\printf.c",
+        "output": ".pio\\build\\bluepill_f103c8\\lib722\\tiny_printf\\printf.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Core\\Src\\can.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Core\\Src\\can.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Core\\Src\\can.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Core\\Src\\can.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Core\\Src\\dma.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Core\\Src\\dma.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Core\\Src\\dma.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Core\\Src\\dma.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Core\\Src\\freertos.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Core\\Src\\freertos.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Core\\Src\\freertos.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Core\\Src\\freertos.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Core\\Src\\gpio.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Core\\Src\\gpio.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Core\\Src\\gpio.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Core\\Src\\gpio.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Core\\Src\\main.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Core\\Src\\main.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Core\\Src\\main.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Core\\Src\\main.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Core\\Src\\stm32f1xx_hal_msp.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Core\\Src\\stm32f1xx_hal_msp.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Core\\Src\\stm32f1xx_hal_msp.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Core\\Src\\stm32f1xx_hal_msp.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Core\\Src\\stm32f1xx_hal_timebase_tim.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Core\\Src\\stm32f1xx_hal_timebase_tim.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Core\\Src\\stm32f1xx_hal_timebase_tim.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Core\\Src\\stm32f1xx_hal_timebase_tim.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Core\\Src\\stm32f1xx_it.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Core\\Src\\stm32f1xx_it.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Core\\Src\\stm32f1xx_it.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Core\\Src\\stm32f1xx_it.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Core\\Src\\syscalls.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Core\\Src\\syscalls.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Core\\Src\\syscalls.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Core\\Src\\syscalls.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Core\\Src\\sysmem.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Core\\Src\\sysmem.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Core\\Src\\sysmem.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Core\\Src\\sysmem.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Core\\Src\\system_stm32f1xx.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Core\\Src\\system_stm32f1xx.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Core\\Src\\system_stm32f1xx.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Core\\Src\\system_stm32f1xx.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Core\\Src\\usart.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Core\\Src\\usart.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Core\\Src\\usart.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Core\\Src\\usart.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-as.exe -mthumb -mcpu=cortex-m3 -o .pio\\build\\bluepill_f103c8\\Core\\Startup\\startup_stm32f103c8tx.o Core\\Startup\\startup_stm32f103c8tx.s",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Core\\Startup\\startup_stm32f103c8tx.s",
+        "output": ".pio\\build\\bluepill_f103c8\\Core\\Startup\\startup_stm32f103c8tx.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_can.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_can.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_can.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_can.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_cortex.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_cortex.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_cortex.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_cortex.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_dma.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_dma.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_dma.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_dma.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_exti.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_exti.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_exti.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_exti.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_flash.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_flash.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_flash.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_flash.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_flash_ex.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_flash_ex.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_flash_ex.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_flash_ex.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_gpio.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_gpio.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_gpio.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_gpio.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_gpio_ex.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_gpio_ex.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_gpio_ex.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_gpio_ex.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_pwr.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_pwr.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_pwr.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_pwr.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_rcc.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_rcc.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_rcc.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_rcc.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_rcc_ex.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_rcc_ex.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_rcc_ex.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_rcc_ex.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_tim.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_tim.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_tim.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_tim.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_tim_ex.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_tim_ex.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_tim_ex.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_tim_ex.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_uart.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_uart.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_uart.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Drivers\\STM32F1xx_HAL_Driver\\Src\\stm32f1xx_hal_uart.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Middlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2\\cmsis_os2.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Middlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2\\cmsis_os2.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Middlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2\\cmsis_os2.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Middlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2\\cmsis_os2.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Middlewares\\Third_Party\\FreeRTOS\\Source\\croutine.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Middlewares\\Third_Party\\FreeRTOS\\Source\\croutine.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Middlewares\\Third_Party\\FreeRTOS\\Source\\croutine.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Middlewares\\Third_Party\\FreeRTOS\\Source\\croutine.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Middlewares\\Third_Party\\FreeRTOS\\Source\\event_groups.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Middlewares\\Third_Party\\FreeRTOS\\Source\\event_groups.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Middlewares\\Third_Party\\FreeRTOS\\Source\\event_groups.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Middlewares\\Third_Party\\FreeRTOS\\Source\\event_groups.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Middlewares\\Third_Party\\FreeRTOS\\Source\\list.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Middlewares\\Third_Party\\FreeRTOS\\Source\\list.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Middlewares\\Third_Party\\FreeRTOS\\Source\\list.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Middlewares\\Third_Party\\FreeRTOS\\Source\\list.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3\\port.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3\\port.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3\\port.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3\\port.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\MemMang\\heap_4.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\MemMang\\heap_4.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\MemMang\\heap_4.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Middlewares\\Third_Party\\FreeRTOS\\Source\\portable\\MemMang\\heap_4.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Middlewares\\Third_Party\\FreeRTOS\\Source\\queue.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Middlewares\\Third_Party\\FreeRTOS\\Source\\queue.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Middlewares\\Third_Party\\FreeRTOS\\Source\\queue.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Middlewares\\Third_Party\\FreeRTOS\\Source\\queue.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Middlewares\\Third_Party\\FreeRTOS\\Source\\stream_buffer.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Middlewares\\Third_Party\\FreeRTOS\\Source\\stream_buffer.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Middlewares\\Third_Party\\FreeRTOS\\Source\\stream_buffer.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Middlewares\\Third_Party\\FreeRTOS\\Source\\stream_buffer.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Middlewares\\Third_Party\\FreeRTOS\\Source\\tasks.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Middlewares\\Third_Party\\FreeRTOS\\Source\\tasks.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Middlewares\\Third_Party\\FreeRTOS\\Source\\tasks.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Middlewares\\Third_Party\\FreeRTOS\\Source\\tasks.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\Middlewares\\Third_Party\\FreeRTOS\\Source\\timers.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps Middlewares\\Third_Party\\FreeRTOS\\Source\\timers.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "Middlewares\\Third_Party\\FreeRTOS\\Source\\timers.c",
+        "output": ".pio\\build\\bluepill_f103c8\\Middlewares\\Third_Party\\FreeRTOS\\Source\\timers.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-g++.exe -o .pio\\build\\bluepill_f103c8\\src\\app\\App.o -c -fno-rtti -fno-exceptions -std=gnu++2a -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps src\\app\\App.cpp",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "src\\app\\App.cpp",
+        "output": ".pio\\build\\bluepill_f103c8\\src\\app\\App.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\bluepill_f103c8\\src\\retarget.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps src\\retarget.c",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "src\\retarget.c",
+        "output": ".pio\\build\\bluepill_f103c8\\src\\retarget.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-g++.exe -o .pio\\build\\bluepill_f103c8\\src\\services\\gps\\GpsService.o -c -fno-rtti -fno-exceptions -std=gnu++2a -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps src\\services\\gps\\GpsService.cpp",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "src\\services\\gps\\GpsService.cpp",
+        "output": ".pio\\build\\bluepill_f103c8\\src\\services\\gps\\GpsService.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-g++.exe -o .pio\\build\\bluepill_f103c8\\src\\services\\led\\Led.o -c -fno-rtti -fno-exceptions -std=gnu++2a -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps src\\services\\led\\Led.cpp",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "src\\services\\led\\Led.cpp",
+        "output": ".pio\\build\\bluepill_f103c8\\src\\services\\led\\Led.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-g++.exe -o .pio\\build\\bluepill_f103c8\\src\\services\\sim7000Bridge\\Sim7000Bridge.o -c -fno-rtti -fno-exceptions -std=gnu++2a -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps src\\services\\sim7000Bridge\\Sim7000Bridge.cpp",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "src\\services\\sim7000Bridge\\Sim7000Bridge.cpp",
+        "output": ".pio\\build\\bluepill_f103c8\\src\\services\\sim7000Bridge\\Sim7000Bridge.o"
+    },
+    {
+        "command": "C:\\Users\\Admin\\.platformio\\packages\\toolchain-gccarmnoneeabi\\bin\\arm-none-eabi-g++.exe -o .pio\\build\\bluepill_f103c8\\src\\services\\sim7000\\Sim7000.o -c -fno-rtti -fno-exceptions -std=gnu++2a -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -fno-strict-aliasing -fno-strict-aliasing -Os -fno-exceptions -DF_CPU=72000000L -DPLATFORMIO=60119 -DSTM32F1 -DSTM32F103xB -DHSE_VALUE=8000000U -Isrc -Ilib\\tiny_printf -IDrivers\\STM32F1xx_HAL_Driver\\Inc -IDrivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy -IDrivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include -IDrivers\\CMSIS\\Include -Iinclude -ICore\\Inc -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\include -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\CMSIS_RTOS_V2 -IMiddlewares\\Third_Party\\FreeRTOS\\Source\\portable\\GCC\\ARM_CM3 -Isrc\\app -Isrc\\services\\sim7000 -Isrc\\services\\gps src\\services\\sim7000\\Sim7000.cpp",
+        "directory": "D:\\Projects\\Pavlo\\repo\\smart-can-device",
+        "file": "src\\services\\sim7000\\Sim7000.cpp",
+        "output": ".pio\\build\\bluepill_f103c8\\src\\services\\sim7000\\Sim7000.o"
+    }
+]
