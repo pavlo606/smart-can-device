@@ -52,3 +52,11 @@ def after_upload(source, target, env):
 
 # Реєструємо хук з правильним викликом
 env.AddPostAction("upload", after_upload)
+
+env.AddCustomTarget(
+    name="monitor_swo",
+    actions=[after_upload],
+    dependencies=None,
+    title="SWO Monitor",
+    description="Start OpenOCD and SWO Parser without flashing the target"
+)
