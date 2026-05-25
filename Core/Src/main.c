@@ -86,15 +86,15 @@ int main(void)
   SystemClock_Config();
 
   /* USER CODE BEGIN SysInit */
-  uint32_t actual_cpu_freq = HAL_RCC_GetSysClockFreq(); 
-  uint32_t target_swo_freq = 2000000;
+  // uint32_t actual_cpu_freq = HAL_RCC_GetSysClockFreq(); 
+  // uint32_t target_swo_freq = 2000000;
 
-  CoreDebug->DEMCR |= CoreDebug_DEMCR_TRCENA_Msk;
-  TPI->ACPR = (actual_cpu_freq / target_swo_freq) - 1;
-  TPI->SPPR = 2;
-  TPI->FFCR = 0;
+  // CoreDebug->DEMCR |= CoreDebug_DEMCR_TRCENA_Msk;
+  // TPI->ACPR = (actual_cpu_freq / target_swo_freq) - 1;
+  // TPI->SPPR = 2;
+  // TPI->FFCR = 0;
 
-  ITM->TER |= 1UL;
+  // ITM->TER |= 1UL;
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */

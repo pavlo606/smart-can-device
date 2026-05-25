@@ -25,8 +25,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-//#include "printf.h"
-#include <stdio.h>
+#include "printf.h"
+//#include <stdio.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -56,7 +56,7 @@ const osThreadAttr_t canTask_attributes = {
 osThreadId_t lteTaskHandle;
 const osThreadAttr_t lteTask_attributes = {
   .name = "lteTask",
-  .stack_size = 512 * 4,
+  .stack_size = 768 * 4,
   .priority = (osPriority_t) osPriorityNormal,
 };
 
@@ -133,7 +133,7 @@ void StartDefaultTask(void *argument)
   /* Infinite loop */
   for(;;)
   {
-    printf("-------- TEST --------\r\n");
+    printf("-------- TEST --------\n");
     osDelay(5000);
   }
   /* USER CODE END StartDefaultTask */

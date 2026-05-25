@@ -8,9 +8,9 @@ extern "C" {
 
 #include <cstring>
 
-#include <stdio.h>
+//#include <stdio.h>
 
-//#include "printf.h"
+#include "printf.h"
 
 void Sim7000::onDataReceived(UART_HandleTypeDef* huart, uint16_t len, Sim7000* inst)
 {
@@ -374,7 +374,7 @@ void Sim7000::handleLine(const char* line)
 
     HAL_UART_Transmit(&huart2, (uint8_t*)"\"\n", 2, 100);
 
-    printf("[SIM_7000] <<=== Received data: %s\r\n", line);
+    printf("[SIM_7000] <<=== Received data: %s\n", line);
 
     if (strstr(line, "OK")) {
         responses.lastResponseOk = true;

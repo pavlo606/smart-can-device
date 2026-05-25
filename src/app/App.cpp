@@ -4,8 +4,8 @@
 // #include <cstring>
 // #include <cstdlib>
 
-//#include "printf.h"
-#include <stdio.h>
+#include "printf.h"
+//#include <stdio.h>
 
 extern "C" {
 void startLteTask(void*)
